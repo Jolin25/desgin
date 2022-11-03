@@ -1,2 +1,2 @@
 # desgin
-learn dedign mode in geektime
+learn design pattern in geektime with wangzheng
