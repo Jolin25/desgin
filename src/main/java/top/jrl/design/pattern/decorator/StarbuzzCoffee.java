@@ -8,7 +8,7 @@ package top.jrl.design.pattern.decorator;
  */
 public class StarbuzzCoffee {
     public static void main(String[] args) {
-        //    来一杯双倍摩卡，一份奶泡的首选咖啡
+        // 来一杯双倍摩卡，一份奶泡的首选咖啡
         Beverage beverage = new HouseBlend("tall");
         // 此乃组合呀，一层一层的叠加上去
         beverage = new Mocha(beverage);
@@ -16,7 +16,7 @@ public class StarbuzzCoffee {
         beverage = new Whip(beverage);
         System.out.println(beverage.getDescription() + "$" + beverage.cost());
 
-        //    双倍摩卡浓缩意式咖啡
+        // 双倍摩卡浓缩意式咖啡
         Beverage beverage1 = new Espresso("grande");
         beverage1 = new Mocha(beverage1);
         beverage1 = new Mocha(beverage1);
