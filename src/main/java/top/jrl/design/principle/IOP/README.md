@@ -1,0 +1,1 @@
+1. 可能是我自己造的词，Interface Oriented Programming,面向接口编程
