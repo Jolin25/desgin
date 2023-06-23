@@ -1,7 +1,7 @@
 package top.jrl.design.pattern.creation.factory.abstract_;
 
 import top.jrl.design.pattern.creation.factory.abstract_.ingredient.*;
-import top.jrl.design.pattern.factory.abstract_.ingredient.*;
+import top.jrl.design.pattern.creation.factory.abstract_.ingredient.*;
 
 /**
  * @author jrl

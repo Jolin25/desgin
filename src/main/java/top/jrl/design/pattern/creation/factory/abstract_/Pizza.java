@@ -1,7 +1,6 @@
 package top.jrl.design.pattern.creation.factory.abstract_;
 
 import top.jrl.design.pattern.creation.factory.abstract_.ingredient.*;
-import top.jrl.design.pattern.factory.abstract_.ingredient.*;
 
 /**
  * 抽象产品类：披萨概览
