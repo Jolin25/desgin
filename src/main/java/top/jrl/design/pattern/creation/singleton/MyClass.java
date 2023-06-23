@@ -5,6 +5,7 @@ package top.jrl.design.pattern.creation.singleton;
  * @date Create in 15:49 2023/6/23
  */
 public class MyClass {
+	// TODO_Joly:headfirst 里 用了 private
 	static MyClass myClassInstance;
 
 	/**
@@ -13,6 +14,7 @@ public class MyClass {
 	 * @author jrl
 	 * @date 2023/6/23
 	 */
+	// TODO_Joly:headfirst 里 用了 private
 	static volatile MyClass myClassInstance4effective;
 
 	private MyClass() {
